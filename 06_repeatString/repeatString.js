@@ -1,4 +1,4 @@
-const repeatString = function (word, loop) {
+const repeatString = (word, loop) => {
 	if (loop < 0) {
 		return "ERROR";
 	}
